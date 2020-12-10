@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Ideas Generator</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/darkly/bootstrap.min.css" integrity="sha384-nNK9n28pDUDDgIiIqZ/MiyO3F4/9vsMtReZK39klb/MtkZI3/LtjSjlmyVPS3KdN" crossorigin="anonymous">
+    <script defer type="text/javascript" src="menu.js" ></script>
+
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-4">
+        <a class="navbar-brand" href="#">Menu Idea Generator</a>
+    </nav>
+
+    <main class="container" role="main">
+        <div class="row">
+            <div class="col-md-12 ">
+                <div class="jumbotron"> 
+                    <h1 class="h1">Menu Idea Generator</h1>
+                </div>
+            </div>
+            <section class="col-md-12">
+                <div class="p-3 mb-3 bg-dark rounded shadow-sm">
+                    <div class="text-center mb-3">
+                        <button class="btn btn-primary" onclick="createTable()">Generate Ideas</button>
+                    </div>
+                    <table class="table table-hover">
+                        <thead>
+                          <tr class="text-center">
+                            <th scope="col" colspan="3">MENU</th>
+                          </tr>
+                          <tr>
+                            <th scope="col">DAY</th>
+                            <th scope="col">TIME</th>
+                            <th scope="col">MEAL</th>
+                          </tr>
+                        </thead>
+                        <tbody id="menu-table">
+                        </tbody>
+                      </table>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="mastfoot mt-4 text-center">
+        <div class="inner">
+          <p>  Menu Idea Generator by <a href="https://idristhedragon.tech/">Nathan</a>.</p>
+        </div>
+    </footer>
+</body>
+</html>
