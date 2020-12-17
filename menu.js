@@ -45,6 +45,7 @@ const Sunday = [
     "Steak"
 ]
 const teas = [
+    "Toad in the hole",
     "Fish and Chips",
     "Chicken Curry",
     "Lamb Curry",
@@ -80,6 +81,7 @@ const teas = [
     "Scampi and Chips",
     "Hawaiian shrimp",
     "Fish Cakes",
+    "Chicken kievs",
 ]
 
 var selected = []
