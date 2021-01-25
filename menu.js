@@ -45,6 +45,7 @@ const Sunday = [
     "Steak"
 ]
 const teas = [
+    "Sausage hash",
     "Sausages with roast veg",
     "Toad in the hole",
     "Fish and Chips",
