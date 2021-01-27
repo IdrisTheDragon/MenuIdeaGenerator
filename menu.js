@@ -32,6 +32,7 @@ const lunches = [
     "Smoked Salmon",
     "Ham Sandwiches",
     "Cheese On Toast",
+    "Skinnheads on a raft aka beans in toast",
     "Sausage Rolls",
     "Pork Pie",
     "Chicken Caesar Salad",
